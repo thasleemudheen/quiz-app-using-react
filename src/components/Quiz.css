@@ -1,0 +1,87 @@
+/* Styles for the quiz container */
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .question-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .question-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .answer-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .answer-item {
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1 1 calc(50% - 20px);
+    text-align: center;
+    width: 200px;
+  }
+  
+  .correct-answer {
+    background-color: green;
+    color: white;
+  }
+  
+  .wrong-answer {
+    background-color: red;
+    color: white;
+  }
+  
+  .next-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #score{
+    color: green;
+    font-weight: 800;
+  }
+  #total{
+    color: blue;
+  }
+  .retry-button {
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .retry-button:hover {
+    background-color: darkblue;
+  }
